@@ -25,6 +25,3 @@ else if (config.satuan_suhu == "fahrenheit")
     Console.WriteLine((suhu >= 97.7 && suhu <= 99.5) && hari < config.batas_hari_deman
                         ? config.pesan_diterima : config.pesan_ditolak);
 }
-
-config.UbahSatuan();
-Console.WriteLine(config.satuan_suhu);

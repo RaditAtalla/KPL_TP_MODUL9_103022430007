@@ -10,7 +10,6 @@ namespace TP_MODUL9_103022430007
         public int batas_hari_deman { get; set; }
         public string pesan_ditolak { get; set; }
         public string pesan_diterima { get; set; }
-
         public void UbahSatuan()
         {
             if (satuan_suhu == "celcius")
